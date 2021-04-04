@@ -1,0 +1,22 @@
+if you make a merge on the wrong branch, use this command to undo the merge:
+    
+git reset --hard HEAD^
+
+
+Merge:
+
+$ git merge <name-of-branch-to-merge-in>
+
+IMPORTANT - When we merge, 
+we're merging some other branch into the current (checked-out) branch.
+XX
+We're not merging two branches into a new branch. 
+We're not merging the current branch into the other branch.
+XX
+
+There are two types of merges:
+
+Fast-forward merge – the branch being merged in must be ahead of the checked out branch. The checked out branch's pointer will just be moved forward to point to the same commit as the other branch.
+the regular type of merge
+two divergent branches are combined
+a merge commit is created
