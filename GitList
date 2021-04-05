@@ -1,0 +1,3 @@
+git status : command will display a lot of information depending on the state of your files,
+the working directory, and the repository.
+

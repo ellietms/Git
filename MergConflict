@@ -1,0 +1,12 @@
+Merge Conflict Indicators Explanation
+
+The editor has the following merge conflict indicators:
+1)<<<<<<< HEAD everything below this line (until the next indicator) shows you what's on the current branch
+2)||||||| merged common ancestors everything below this line (until the next indicator) shows you what the original lines were
+3)======= is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in
+4)>>>>>>> heading-update is the ending indicator of what's on the branch that's being merged in (in this case, the heading-update branch)
+
+Resolving A Merge Conflict:
+
+1)choose which line(s) to keep
+2)remove all lines with indicators
