@@ -1,3 +1,16 @@
-git status : command will display a lot of information depending on the state of your files,
+git status : 
+command will display a lot of information depending on the state of your files,
 the working directory, and the repository.
+
+git commit --amend:
+to update the most-recent commit instead of creating a new one.
+
+git revert:
+git revert <SHA-of-commit-to-revert>
+
+will undo the changes that were made by the provided commit
+creates a new commit to record the chang
+
+
+
 
