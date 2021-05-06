@@ -23,10 +23,18 @@ use : git fetch --prune
 will show you an updated list of branches that really exist on the remote:
 
 
-
 - git fetch
   git rebase origin/master  :
 when you want to update your branch with the new changes has been applied to the master.
+
+
+- git reset --soft HEAD^1 :
+Committed files to Staging Area
+
+
+- git reset HEAD git commands.txt :
+Staging to UnStage :(use "git reset HEAD ..." to unstage)
+
 
 - git status : 
 command will display a lot of information depending on the state of your files,
