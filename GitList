@@ -1,34 +1,44 @@
-git reset --soft HEAD^1 :
+- git reset --soft HEAD^1 :
 when you want to remove the last commit and have it in your staging area.
 
 
-git push --set-upstream origin <name of branch> :
+- git push --set-upstream origin <name of branch> :
 when you have a new branch, you should have it remotly as well.when you set the upstream , you will have that branch remotly.
 after that you can track you changes by push or pull (you just do it once)
 
 
-git branch -a:
+- git branch -a:
 it will show you all the remote and local branches.
 (be carefull you might see some remote branches that they are not exsit, it happens when you delete you branches remotly and you do not update your local machine)
 when you do git fetch you update your branch but for just having all the branches which are exsit( remote and local) and get rid of the deleted ones you can 
 use : git fetch --prune
 
-git branch -r :
+
+- git fetch --prune :
+ git fetch does not remove remote branches that no longer have a counterpart branch on the remote.
+ In order to do that, you explicitly need to prune the list of remote branches.
+ 
+
+- git branch -r :
 will show you an updated list of branches that really exist on the remote:
 
 
-git status : 
+
+- git fetch
+  git rebase origin/master  :
+when you want to update your branch with the new changes has been applied to the master.
+
+- git status : 
 command will display a lot of information depending on the state of your files,
 the working directory, and the repository.
 
 
-git commit --amend:
+- git commit --amend:
 to update the most-recent commit instead of creating a new one.
 
 
-git revert:
+- git revert:
 git revert <SHA-of-commit-to-revert>
-
 will undo the changes that were made by the provided commit
 creates a new commit to record the chang
 
