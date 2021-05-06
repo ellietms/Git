@@ -1,3 +1,6 @@
+git reset --soft HEAD^1 :
+when you want to remove the last commit and have it in your staging area.
+
 git status : 
 command will display a lot of information depending on the state of your files,
 the working directory, and the repository.
@@ -10,7 +13,5 @@ git revert <SHA-of-commit-to-revert>
 
 will undo the changes that were made by the provided commit
 creates a new commit to record the chang
-
-
 
 
