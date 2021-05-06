@@ -9,7 +9,7 @@ after that you can track you changes by push or pull (you just do it once)
 
 git branch -a:
 it will show you all the remote and local branches.
-(be carefull you might see some remote changes that they are not exsit, it happens when you delete you branches remotly and you do not update your local machine)
+(be carefull you might see some remote branches that they are not exsit, it happens when you delete you branches remotly and you do not update your local machine)
 when you do git fetch you update your branch but for just having all the branches which are exsit( remote and local) and get rid of the deleted ones you can 
 use : git fetch --prune
 
