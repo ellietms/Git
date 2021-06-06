@@ -26,8 +26,8 @@ use : git fetch --prune
 will show you an updated list of branches that really exist on the remote:
 
 
-- git fetch
-  git rebase origin/master  :
+- 1) git fetch
+  2) git rebase origin/master  :
 when you want to update your branch with the new changes has been applied to the master.
 
 
@@ -51,6 +51,12 @@ to update the most-recent commit instead of creating a new one.
 - git revert:
 git revert <SHA-of-commit-to-revert>
 will undo the changes that were made by the provided commit
-creates a new commit to record the chang
+creates a new commit to record the changes
+
+- git log --all --decorate --oneline --graph :
+shows the graph and commit number and texts
+
+- git branch -d (name of the branch):
+delete the branch
 
 

@@ -1,0 +1,17 @@
+you can create your own git commands by using :
+
+
+* alias name(whatever you want) = (git command you want to make)
+
+*Example : git graph = git log --all --decorate --oneline --graph 
+graph 
+now you can just call graph for running all these commands 
+
+
+* git diff master ..(name of branch) :
+
+it shows us, what will change when we want to merge that branch to the master.
+
+* git branch --merged : 
+
+it shows us which branch has merged
