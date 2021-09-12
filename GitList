@@ -59,4 +59,5 @@ shows the graph and commit number and texts
 - git branch -d (name of the branch):
 delete the branch
 
-
+- git rm --cache -r .idea :
+for deleting the .idea folder
