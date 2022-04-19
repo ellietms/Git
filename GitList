@@ -63,3 +63,6 @@ delete the branch
 
 - git rm --cache -r .idea :
 for deleting the .idea folder
+
+- kill all the ports : 
+kill -9 $(lsof -ti:port1,port2, ...)
