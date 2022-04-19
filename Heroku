@@ -1,0 +1,7 @@
+1) npm install -g heroku
+2) heroku --version
+3) heroku login
+4) heroku git:clone -a name_repo
+5) cd name_repo
+6) git add . ,  git commit -m "add comment" 
+7) git push heroku (main repo)
