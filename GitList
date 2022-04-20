@@ -65,4 +65,7 @@ delete the branch
 for deleting the .idea folder
 
 - kill all the ports : 
+npx kill-port 5001 8080 4000 9000 9099 8085
+kill -9 $(lsof -ti:4000,8085,5001,4000,8080,9000)
+kill$(lsof -t -i:9000)
 kill -9 $(lsof -ti:port1,port2, ...)
