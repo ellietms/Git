@@ -4,7 +4,6 @@ when you want to change the name of the branch (you should be on the branch)
 - git reset --soft HEAD^1 :
 when you want to remove the last commit and have it in your staging area.
 
-
 - git push --set-upstream origin <name of branch> :
 when you have a new branch, you should have it remotly as well.when you set the upstream , you will have that branch remotly.
 after that you can track you changes by push or pull (you just do it once)
@@ -22,6 +21,11 @@ use : git fetch --prune
  In order to do that, you explicitly need to prune the list of remote branches.
  
 
+- git fetch origin (name of remote branch)
+ git checkout (name of remote branch) :
+ when we want to get a remote branch to our local.
+
+
 - git branch -r :
 will show you an updated list of branches that really exist on the remote:
 
@@ -30,10 +34,8 @@ will show you an updated list of branches that really exist on the remote:
   2) git rebase origin/master  :
 when you want to update your branch with the new changes has been applied to the master.
 
-
 - git reset --soft HEAD^1 :
 Committed files to Staging Area
-
 
 - git reset HEAD git commands.txt :
 Staging to UnStage :(use "git reset HEAD ..." to unstage)
@@ -50,10 +52,8 @@ revert a merged commit
 command will display a lot of information depending on the state of your files,
 the working directory, and the repository.
 
-
 - git commit --amend:
 to update the most-recent commit instead of creating a new one.
-
 
 - git log --all --decorate --oneline --graph :
 shows the graph and commit number and texts
