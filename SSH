@@ -1,0 +1,6 @@
+cd ~/.ssh
+ssh-keygen -C "your-email" -b 4096 
+Create Keys
+cat ~/.ssh/id_rsa.pub | pbcopy
+Clone
+Done
