@@ -1,12 +1,14 @@
 - git branch -m new-name :
-when you want to change the name of the branch (you should be on the branch)
+when you want to change the name of the branch (you should be on the branch).
+
 
 - git reset --soft HEAD^1 :
 when you want to remove the last commit and have it in your staging area.
 
+
 - git push --set-upstream origin <name of branch> :
 when you have a new branch, you should have it remotly as well.when you set the upstream , you will have that branch remotly.
-after that you can track you changes by push or pull (you just do it once)
+after that you can track you changes by push or pull (you just do it once).
 
 
 - git branch -a:
@@ -31,8 +33,10 @@ will show you an updated list of branches that really exist on the remote:
 
 
 - 1) git fetch
-  2) git rebase origin/master  :
+  2) git rebase origin/master :
 when you want to update your branch with the new changes has been applied to the master.
+
+- git reset HEAD:  to unstage commit
 
 - git reset --soft HEAD^1 :
 Committed files to Staging Area
@@ -41,9 +45,9 @@ Committed files to Staging Area
 Staging to UnStage :(use "git reset HEAD ..." to unstage)
 
 - git revert:
-git revert <SHA-of-commit-to-revert>
-will undo the changes that were made by the provided commit
-creates a new commit to record the changes
+ git revert <SHA-of-commit-to-revert>
+ will undo the changes that were made by the provided commit
+ creates a new commit to record the changes
 
 - git revert -m 1 <SHA-..>:
 revert a merged commit
